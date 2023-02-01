@@ -6,11 +6,13 @@ setuptools.setup(
     author="Milind Sharma",
     author_email="milindsharma8@gmail.com",
     keywords=["aqi", "air quality", "world air quality", "api", "open source"],
-    description="A package to get air quality data using the WAQI API",
+    description="An open-source package to easily obtain real-time, historical,"
+    "or forecasted air quality data for anywhere in the world. Reliable,"
+    "accurate and simple.",
     license="GPLv3+",
-    url="https://github.com/Milind220/Ozone",
-    version="2.0.1",
-    download_url="https://github.com/Milind220/Ozone/archive/refs/tags/v2.0.1.tar.gz",
+    url="https://github.com/Ozon3Org/Ozon3",
+    version="4.0.2",
+    download_url="https://github.com/Ozon3Org/Ozon3/archive/refs/tags/v4.0.2.tar.gz",
     packages=setuptools.find_packages(),
     install_requires=[
         "numpy; python_version>='3'",
